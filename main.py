@@ -1,4 +1,7 @@
 import time
+
+import sys
+sys.path.append("game-objects")
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
